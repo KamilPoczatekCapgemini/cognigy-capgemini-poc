@@ -1,0 +1,154 @@
+{
+  "id": "68ba8e40f2f5405cda799bed",
+  "version": "2.0",
+  "timestamp": 1757059401772,
+  "item": {
+    "_id": "68ba8e40f2f5405cda799bed",
+    "referenceId": "3e6ba57d-1440-47b2-894b-d820454eb410",
+    "name": "test",
+    "description": "",
+    "createdAt": 1757056576,
+    "lastChanged": 1757057705,
+    "createdBy": "68b98a62e76ce241d8a51177",
+    "lastChangedBy": "68b98a62e76ce241d8a51177",
+    "isTrainingOutOfDate": false
+  },
+  "charts": {
+    "en-US": {
+      "_id": "68ba8e40f2f5405cda799bf2",
+      "full_nodes": [
+        {
+          "_id": "68ba92a8f2f5405cda79adbe",
+          "referenceId": "ca41a26f-2c0e-4f20-864c-07871bca6cba",
+          "type": "say",
+          "label": "Say (2)",
+          "comment": "",
+          "commentColor": "",
+          "analyticsLabel": null,
+          "isDisabled": false,
+          "isEntryPoint": false,
+          "extension": "@cognigy/basic-nodes",
+          "config": {
+            "say": {
+              "data": "",
+              "linear": false,
+              "loop": false,
+              "text": [],
+              "type": "text",
+              "_cognigy": {}
+            },
+            "handoverOutput": "userAndAgent",
+            "preventTranscript": false,
+            "generativeAI_rephraseOutputMode": "none",
+            "generativeAI_amountOfLastUserInputs": 5,
+            "generativeAI_customInputs": "",
+            "generativeAI_temperature": 0.7
+          },
+          "preview": {
+            "data": "",
+            "linear": false,
+            "loop": false,
+            "text": [],
+            "type": "text",
+            "_cognigy": {}
+          },
+          "localeReference": "68b98abaf2f5405cda766176"
+        },
+        {
+          "_id": "68ba92a8940064f75750045c",
+          "referenceId": "1427b5ec-717f-4985-8af5-be1e79eafa86",
+          "type": "say",
+          "label": "Say",
+          "comment": "",
+          "commentColor": "",
+          "analyticsLabel": null,
+          "isDisabled": false,
+          "isEntryPoint": false,
+          "extension": "@cognigy/basic-nodes",
+          "config": {
+            "say": {
+              "data": "",
+              "linear": false,
+              "loop": false,
+              "text": [],
+              "type": "text",
+              "_cognigy": {}
+            },
+            "handoverOutput": "userAndAgent",
+            "preventTranscript": false,
+            "generativeAI_rephraseOutputMode": "none",
+            "generativeAI_amountOfLastUserInputs": 5,
+            "generativeAI_customInputs": "",
+            "generativeAI_temperature": 0.7
+          },
+          "preview": {
+            "data": "",
+            "linear": false,
+            "loop": false,
+            "text": [],
+            "type": "text",
+            "_cognigy": {}
+          },
+          "localeReference": "68b98abaf2f5405cda766176"
+        },
+        {
+          "_id": "68ba8e40f2f5405cda799c03",
+          "referenceId": "f85fdfcd-3cb8-4865-b883-a1c6e5f37dde",
+          "type": "end",
+          "label": "End",
+          "comment": "",
+          "commentColor": "",
+          "analyticsLabel": null,
+          "isDisabled": false,
+          "isEntryPoint": false,
+          "extension": "@cognigy/basic-nodes",
+          "config": {},
+          "preview": "",
+          "localeReference": "68b98abaf2f5405cda766176"
+        },
+        {
+          "_id": "68ba8e40f2f5405cda799bf8",
+          "referenceId": "58591546-17bd-43c2-9081-6c1eb2a3dad4",
+          "type": "start",
+          "label": "Start",
+          "comment": "",
+          "commentColor": "",
+          "analyticsLabel": null,
+          "isDisabled": false,
+          "isEntryPoint": true,
+          "extension": "@cognigy/basic-nodes",
+          "config": {},
+          "preview": "",
+          "localeReference": "68b98abaf2f5405cda766176"
+        }
+      ],
+      "relations": [
+        {
+          "node": "68ba8e40f2f5405cda799bf8",
+          "children": [],
+          "next": "68ba92a8940064f75750045c",
+          "_id": "68ba8e40f2f5405cda799bf9"
+        },
+        {
+          "node": "68ba8e40f2f5405cda799c03",
+          "children": [],
+          "next": null,
+          "_id": "68ba8e40f2f5405cda799c06"
+        },
+        {
+          "node": "68ba92a8940064f75750045c",
+          "children": [],
+          "next": "68ba92a8f2f5405cda79adbe",
+          "_id": "68ba92a8940064f75750045f"
+        },
+        {
+          "node": "68ba92a8f2f5405cda79adbe",
+          "children": [],
+          "next": "68ba8e40f2f5405cda799c03",
+          "_id": "68ba92a8f2f5405cda79adc1"
+        }
+      ],
+      "intents": []
+    }
+  }
+}
