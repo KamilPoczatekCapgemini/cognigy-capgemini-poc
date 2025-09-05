@@ -1,25 +1,25 @@
 {
-  "id": "68ba8e40f2f5405cda799bed",
+  "id": "68ba9d21d0fdf532f705a9e9",
   "version": "2.0",
-  "timestamp": 1757059401772,
+  "timestamp": 1757060623740,
   "item": {
-    "_id": "68ba8e40f2f5405cda799bed",
-    "referenceId": "3e6ba57d-1440-47b2-894b-d820454eb410",
+    "_id": "68ba9d21d0fdf532f705a9e9",
+    "referenceId": "45bae962-8c3a-4074-9ac6-e4dcd64877b5",
     "name": "test",
-    "description": "",
-    "createdAt": 1757056576,
-    "lastChanged": 1757057705,
+    "createdAt": 1757060385,
+    "lastChanged": 1757060387,
     "createdBy": "68b98a62e76ce241d8a51177",
     "lastChangedBy": "68b98a62e76ce241d8a51177",
+    "description": "",
     "isTrainingOutOfDate": false
   },
   "charts": {
     "en-US": {
-      "_id": "68ba8e40f2f5405cda799bf2",
+      "_id": "68ba9d21d0fdf532f705a9ee",
       "full_nodes": [
         {
-          "_id": "68ba92a8f2f5405cda79adbe",
-          "referenceId": "ca41a26f-2c0e-4f20-864c-07871bca6cba",
+          "_id": "68ba9d23940064f757503338",
+          "referenceId": "aba752c5-20c0-42aa-9c0d-a0a8f51ef44a",
           "type": "say",
           "label": "Say (2)",
           "comment": "",
@@ -55,8 +55,8 @@
           "localeReference": "68b98abaf2f5405cda766176"
         },
         {
-          "_id": "68ba92a8940064f75750045c",
-          "referenceId": "1427b5ec-717f-4985-8af5-be1e79eafa86",
+          "_id": "68ba9d22940064f757503315",
+          "referenceId": "7a5a6bab-3b01-4cd1-92de-538033d5b2bf",
           "type": "say",
           "label": "Say",
           "comment": "",
@@ -92,8 +92,8 @@
           "localeReference": "68b98abaf2f5405cda766176"
         },
         {
-          "_id": "68ba8e40f2f5405cda799c03",
-          "referenceId": "f85fdfcd-3cb8-4865-b883-a1c6e5f37dde",
+          "_id": "68ba9d21d0fdf532f705a9ff",
+          "referenceId": "f3ce2b39-f720-45fd-a852-1896ecb9eb88",
           "type": "end",
           "label": "End",
           "comment": "",
@@ -107,8 +107,8 @@
           "localeReference": "68b98abaf2f5405cda766176"
         },
         {
-          "_id": "68ba8e40f2f5405cda799bf8",
-          "referenceId": "58591546-17bd-43c2-9081-6c1eb2a3dad4",
+          "_id": "68ba9d21d0fdf532f705a9f4",
+          "referenceId": "0cdf20a0-5300-472e-a557-9261f68569cc",
           "type": "start",
           "label": "Start",
           "comment": "",
@@ -124,28 +124,28 @@
       ],
       "relations": [
         {
-          "node": "68ba8e40f2f5405cda799bf8",
+          "node": "68ba9d21d0fdf532f705a9f4",
           "children": [],
-          "next": "68ba92a8940064f75750045c",
-          "_id": "68ba8e40f2f5405cda799bf9"
+          "next": "68ba9d22940064f757503315",
+          "_id": "68ba9d21d0fdf532f705a9f5"
         },
         {
-          "node": "68ba8e40f2f5405cda799c03",
+          "node": "68ba9d21d0fdf532f705a9ff",
           "children": [],
           "next": null,
-          "_id": "68ba8e40f2f5405cda799c06"
+          "_id": "68ba9d21d0fdf532f705aa02"
         },
         {
-          "node": "68ba92a8940064f75750045c",
+          "node": "68ba9d22940064f757503315",
           "children": [],
-          "next": "68ba92a8f2f5405cda79adbe",
-          "_id": "68ba92a8940064f75750045f"
+          "next": "68ba9d23940064f757503338",
+          "_id": "68ba9d22940064f757503318"
         },
         {
-          "node": "68ba92a8f2f5405cda79adbe",
+          "node": "68ba9d23940064f757503338",
           "children": [],
-          "next": "68ba8e40f2f5405cda799c03",
-          "_id": "68ba92a8f2f5405cda79adc1"
+          "next": "68ba9d21d0fdf532f705a9ff",
+          "_id": "68ba9d23940064f75750333b"
         }
       ],
       "intents": []
