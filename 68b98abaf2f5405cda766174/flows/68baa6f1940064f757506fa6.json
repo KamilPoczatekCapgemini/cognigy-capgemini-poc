@@ -1,27 +1,36 @@
 {
-  "id": "68ba9d21d0fdf532f705a9e9",
+  "id": "68baa6f1940064f757506fa6",
   "version": "2.0",
-  "timestamp": 1757062737321,
+  "timestamp": 1757062932325,
   "item": {
-    "_id": "68ba9d21d0fdf532f705a9e9",
-    "referenceId": "45bae962-8c3a-4074-9ac6-e4dcd64877b5",
-    "name": "test",
-    "createdAt": 1757060385,
-    "lastChanged": 1757062579,
+    "_id": "68baa6f1940064f757506fa6",
+    "referenceId": "a97cfed1-d9b7-475c-900f-52c3639ca8fd",
+    "name": "test (2)",
+    "context": {},
+    "attachedFlows": [],
+    "img": "",
+    "projectReference": "68b98abaf2f5405cda766174",
+    "organisationReference": "68b98a619a673ca7eb3620c6",
+    "createdAt": 1757062897,
+    "lastChanged": 1757062931,
     "createdBy": "68b98a62e76ce241d8a51177",
     "lastChangedBy": "68b98a62e76ce241d8a51177",
+    "chartReference": "68baa6f1940064f757506fab",
     "description": "",
-    "isTrainingOutOfDate": false
+    "attachedLexicons": [],
+    "localeReference": "68b98abaf2f5405cda766176",
+    "intentTrainGroupReference": "68baa6f1940064f757506fd1",
+    "isTrainingOutOfDate": null
   },
   "charts": {
     "en-US": {
-      "_id": "68ba9d21d0fdf532f705a9ee",
+      "_id": "68baa6f1940064f757506fab",
       "full_nodes": [
         {
-          "_id": "68baa5b2f2f5405cda7a0a3e",
-          "referenceId": "ed47ba96-3fff-4c27-833f-0f9ebe3e3f5b",
+          "_id": "68baa713f2f5405cda7a161a",
+          "referenceId": "f4616506-9a97-4d6d-a412-6ff6ee0edced",
           "type": "say",
-          "label": "Say",
+          "label": "Say (3)",
           "comment": "",
           "commentColor": "",
           "analyticsLabel": null,
@@ -55,8 +64,8 @@
           "localeReference": "68b98abaf2f5405cda766176"
         },
         {
-          "_id": "68baa5b2d0fdf532f705d89b",
-          "referenceId": "f6d43c9f-e2f8-4185-8799-8dbd49f9102c",
+          "_id": "68baa712d0fdf532f705e532",
+          "referenceId": "54dcac3a-e4f9-483b-aedb-947dffa70712",
           "type": "say",
           "label": "Say (2)",
           "comment": "",
@@ -92,8 +101,45 @@
           "localeReference": "68b98abaf2f5405cda766176"
         },
         {
-          "_id": "68ba9d21d0fdf532f705a9ff",
-          "referenceId": "f3ce2b39-f720-45fd-a852-1896ecb9eb88",
+          "_id": "68baa711940064f7575070e5",
+          "referenceId": "0797e908-3f13-4d42-9997-d42888cb2ae6",
+          "type": "say",
+          "label": "Say",
+          "comment": "",
+          "commentColor": "",
+          "analyticsLabel": null,
+          "isDisabled": false,
+          "isEntryPoint": false,
+          "extension": "@cognigy/basic-nodes",
+          "config": {
+            "say": {
+              "data": "",
+              "linear": false,
+              "loop": false,
+              "text": [],
+              "type": "text",
+              "_cognigy": {}
+            },
+            "handoverOutput": "userAndAgent",
+            "preventTranscript": false,
+            "generativeAI_rephraseOutputMode": "none",
+            "generativeAI_amountOfLastUserInputs": 5,
+            "generativeAI_customInputs": "",
+            "generativeAI_temperature": 0.7
+          },
+          "preview": {
+            "data": "",
+            "linear": false,
+            "loop": false,
+            "text": [],
+            "type": "text",
+            "_cognigy": {}
+          },
+          "localeReference": "68b98abaf2f5405cda766176"
+        },
+        {
+          "_id": "68baa6f1940064f757506fbc",
+          "referenceId": "883fc27d-690c-4aca-9f1a-57d88e70c36d",
           "type": "end",
           "label": "End",
           "comment": "",
@@ -107,8 +153,8 @@
           "localeReference": "68b98abaf2f5405cda766176"
         },
         {
-          "_id": "68ba9d21d0fdf532f705a9f4",
-          "referenceId": "0cdf20a0-5300-472e-a557-9261f68569cc",
+          "_id": "68baa6f1940064f757506fb1",
+          "referenceId": "0f2e84ff-7072-42b0-955b-95e9f34e7f39",
           "type": "start",
           "label": "Start",
           "comment": "",
@@ -124,28 +170,34 @@
       ],
       "relations": [
         {
-          "node": "68ba9d21d0fdf532f705a9f4",
+          "node": "68baa6f1940064f757506fb1",
           "children": [],
-          "next": "68baa5b2f2f5405cda7a0a3e",
-          "_id": "68ba9d21d0fdf532f705a9f5"
+          "next": "68baa711940064f7575070e5",
+          "_id": "68baa6f1940064f757506fb2"
         },
         {
-          "node": "68ba9d21d0fdf532f705a9ff",
+          "node": "68baa6f1940064f757506fbc",
           "children": [],
           "next": null,
-          "_id": "68ba9d21d0fdf532f705aa02"
+          "_id": "68baa6f1940064f757506fbf"
         },
         {
-          "node": "68baa5b2f2f5405cda7a0a3e",
+          "node": "68baa711940064f7575070e5",
           "children": [],
-          "next": "68baa5b2d0fdf532f705d89b",
-          "_id": "68baa5b2f2f5405cda7a0a41"
+          "next": "68baa712d0fdf532f705e532",
+          "_id": "68baa711940064f7575070e8"
         },
         {
-          "node": "68baa5b2d0fdf532f705d89b",
+          "node": "68baa712d0fdf532f705e532",
           "children": [],
-          "next": "68ba9d21d0fdf532f705a9ff",
-          "_id": "68baa5b2d0fdf532f705d89e"
+          "next": "68baa713f2f5405cda7a161a",
+          "_id": "68baa712d0fdf532f705e535"
+        },
+        {
+          "node": "68baa713f2f5405cda7a161a",
+          "children": [],
+          "next": "68baa6f1940064f757506fbc",
+          "_id": "68baa713f2f5405cda7a161d"
         }
       ],
       "intents": []
