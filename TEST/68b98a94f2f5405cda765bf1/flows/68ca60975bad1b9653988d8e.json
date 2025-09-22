@@ -1,0 +1,683 @@
+{
+  "id": "68ca60975bad1b9653988d8e",
+  "version": "2.0",
+  "timestamp": 1758531680181,
+  "item": {
+    "referenceId": "6de0c5ac-b299-4e88-b425-4615c5450692",
+    "intentTrainGroupReference": "68ca60975bad1b9653988db9",
+    "isTrainingOutOfDate": true,
+    "name": "test 2",
+    "description": "",
+    "context": {},
+    "attachedFlows": [],
+    "attachedLexicons": [],
+    "img": "",
+    "id": "68ca60975bad1b9653988d8e",
+    "createdAt": 1758093463,
+    "lastChanged": 1758531676,
+    "createdBy": "68b98a62e76ce241d8a51177",
+    "lastChangedBy": "68b98a62e76ce241d8a51177"
+  },
+  "charts": {
+    "en-US": {
+      "id": "68ca60975bad1b9653988d8e",
+      "full_nodes": [
+        {
+          "type": "question",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Question",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": true,
+          "isDisabled": false,
+          "config": {
+            "type": "yesNo",
+            "say": {
+              "data": "{}",
+              "type": "text",
+              "linear": false,
+              "loop": false,
+              "text": [
+                "Yes or No?"
+              ],
+              "_cognigy": {}
+            },
+            "validationMessage": "Not sure I understood this correctly.",
+            "repromptCondition": "",
+            "repromptType": "text",
+            "repromptSay": {
+              "data": "{}",
+              "type": "text",
+              "linear": false,
+              "loop": false,
+              "text": [
+                "Sorry, I didn't understand that correctly."
+              ],
+              "_cognigy": {}
+            },
+            "repromptLLMProvider": "default",
+            "repromptLLMPrompt": "You are a chatbot that helps a user.\nYou asked the user for INSERT_ASK (e.g. \"their customer number\") and an incorrect answer was given. \nYou now need to guide the user back in a polite way and ask for INSERT_ASK (e.g. \"their customer number\") again.\nDO NOT talk about other topics. Do not offer general assistance.",
+            "repromptLLMStream": false,
+            "repromptLLMTurns": 3,
+            "repromptLLMStreamStopTokens": [
+              ".",
+              "!",
+              "?",
+              "\\n"
+            ],
+            "repromptFlowNode": "",
+            "repromptParseIntents": true,
+            "repromptParseKeyphrases": true,
+            "repromptAbsorbContext": "",
+            "validationRepeat": true,
+            "skipRepromptOnIntent": false,
+            "keyphraseTag": "",
+            "usePositiveOnly": "",
+            "regex": "",
+            "storeInContactProfile": "",
+            "profileKey": "",
+            "storeDetailedResults": "",
+            "storeResultInContext": "",
+            "contextKey": "result",
+            "skipIfResultInContext": "",
+            "onlyAcceptEscalationIntents": "",
+            "parseResultOnEntry": "",
+            "datepickerExplanation": "",
+            "additionalValidation": "",
+            "resultLocation": "",
+            "maxExecutionDiff": 1,
+            "preventTranscript": false,
+            "escalateAnswersAction": "none",
+            "escalateAnswersThreshold": 3,
+            "escalateAnswersGotoTarget": "",
+            "escalateAnswersExecuteTarget": "",
+            "escalateAnswersGotoExecutionMode": "continue",
+            "escalateAnswersInjectedText": "",
+            "escalateAnswersInjectedData": "{}",
+            "escalateAnswersMessage": {
+              "data": "{}",
+              "type": "text",
+              "linear": false,
+              "loop": false,
+              "text": [
+                ""
+              ],
+              "_cognigy": {}
+            },
+            "escalateAnswersRepromptPrevention": true,
+            "escalateAnswersHandoverText": "",
+            "escalateAnswersHandoverResolveBehavior": "continueEntrypoint",
+            "escalateAnswersHandoverSendResolveEvent": false,
+            "escalateAnswersAllowAgentInject": true,
+            "escalateAnswersRepeatHandoverMessage": false,
+            "escalateAnswersHandoverCancelIntent": "",
+            "escalateAnswersHandoverQuickReply": "",
+            "escalateAnswersHandoverLiveAgentInboxId": "",
+            "escalateAnswersHandoverChatwootInboxId": "",
+            "escalateAnswersHandoverSendTranscriptAsFirstMessage": false,
+            "escalateAnswersHandoverSalesforcePrechatEntities": "[]",
+            "escalateAnswersHandoverSalesforcePrechatDetails": "[]",
+            "escalateAnswersHandoverGenesysLanguage": "",
+            "escalateAnswersHandoverGenesysSkills": "",
+            "escalateAnswersHandoverGenesysPriority": "",
+            "escalateAnswersHandoverGenesysCustomAttributes": {},
+            "escalateAnswersHandoverEightByEightChannelId": "",
+            "escalateAnswersHandoverEightByEightQueueId": "",
+            "escalateAnswersHandoverEightByEightJSONProps": {
+              "name": null,
+              "userId": null,
+              "email": null,
+              "phone": null,
+              "company": null,
+              "caseId": null,
+              "language": null,
+              "additionalProperties": [
+                {
+                  "key": "Key name",
+                  "value": "Value from Cognigy"
+                }
+              ]
+            },
+            "escalateAnswersHandoverAdditionalCategoryIds": [],
+            "escalateAnswersOnce": true,
+            "escalateAnswersSendOnQueueEvent": false,
+            "escalateAnswersSendOnActiveEvent": false,
+            "escalateIntentsAction": "none",
+            "escalateIntentsValidIntents": "",
+            "escalateIntentsThreshold": 0.8,
+            "escalateIntentsGotoTarget": "",
+            "escalateIntentsExecuteTarget": "",
+            "escalateIntentsGotoExecutionMode": "continue",
+            "escalateIntentsInjectedText": "",
+            "escalateIntentsInjectedData": "{}",
+            "escalateIntentsMessage": {
+              "data": "{}",
+              "type": "text",
+              "linear": false,
+              "loop": false,
+              "text": [
+                ""
+              ],
+              "_cognigy": {}
+            },
+            "escalateIntentsHandoverText": "",
+            "escalateIntentsRepeatHandoverMessage": false,
+            "escalateIntentsHandoverCancelIntent": "",
+            "escalateIntentsHandoverQuickReply": "",
+            "escalateIntentsHandoverResolveBehavior": "continueEntrypoint",
+            "escalateIntentsHandoverSendResolveEvent": false,
+            "escalateIntentsSendOnQueueEvent": false,
+            "escalateIntentsSendOnActiveEvent": false,
+            "escalateIntentsAllowAgentInject": true,
+            "escalateIntentsHandoverLiveAgentInboxId": "",
+            "escalateIntentsAgentAssistInitMessage": "",
+            "escalateIntentsHandoverChatwootInboxId": "",
+            "escalateIntentHandoverSendTranscriptAsFirstMessage": false,
+            "escalateIntentsHandoverSalesforcePrechatEntities": "[]",
+            "escalateIntentsHandoverSalesforcePrechatDetails": "[]",
+            "escalateIntentsHandoverGenesysLanguage": "",
+            "escalateIntentsHandoverGenesysSkills": [],
+            "escalateIntentsHandoverGenesysPriority": "",
+            "escalateIntentsHandoverGenesysCustomAttributes": {},
+            "escalateIntentsHandoverEightByEightChannelId": "",
+            "escalateIntentsHandoverEightByEightQueueId": "",
+            "escalateIntentsHandoverEightByEightJSONProps": {
+              "name": null,
+              "userId": null,
+              "email": null,
+              "phone": null,
+              "company": null,
+              "caseId": null,
+              "language": null,
+              "additionalProperties": [
+                {
+                  "key": "Key name",
+                  "value": "Value from Cognigy"
+                }
+              ]
+            },
+            "escalateIntentsHandoverAdditionalCategoryIds": [],
+            "escalateIntentsRepromptPrevention": true,
+            "reconfirmationBehaviour": "none",
+            "reconfirmationQuestion": "I heard you say [ANSWER]. Is that correct?",
+            "reconfirmationQuestionReprompt": "I'm not sure I got that right.",
+            "llmEntityExtractLLMProviderReferenceId": "default",
+            "entityName": "customerID",
+            "examples": {
+              "My ID is AB54EE, is that ok?": "AB54EE",
+              "That would be ah bee see double 4 three": "ABC443",
+              "I guess it's 49 A B 8 K": "49AB8K"
+            },
+            "entityDescription": "a customer ID, which has 6 alphanumeric characters (e.g. ABC123).",
+            "llmEntityExtractDescription": "",
+            "llmentityTemperature": 0.7,
+            "llmentityTimeout": 5000,
+            "datepicker_eventName": "",
+            "datepicker_locale": "en",
+            "datepicker_mode": "single",
+            "datepicker_dateFormat": "",
+            "datepicker_enableTime": "",
+            "datepicker_time24Hours": "",
+            "datepicker_defaultDate": "",
+            "datepicker_minDate": "",
+            "datepicker_maxDate": "",
+            "datepicker_wantEnableDisable": "none",
+            "datepicker_disableEnableRange": "",
+            "datepicker_enabledDates": "",
+            "datepicker_disabledDates": "",
+            "datepicker_functionDisable": "(date: Date): boolean => {\n\t/* The function takes in a Date object, and should return a boolean value.\n     * If the function returns true, the date will be disabled.\n\t * Sunday = 0, Monday = 1, Tuesday = 2, Wednesday = 3, Thursday = 4, Friday = 5, Saturday = 6\n\t * The function below would disable every sunday and saturday.\n\t */ \t\n\t// return (date.getDay() === 0 || date.getDay() === 6)\n}",
+            "datepicker_functionEnable": "(date: Date): boolean => {\n\t/* The function takes in a Date object, and should return a boolean value.\n     * If the function returns true, the date will be enabled.\n\t * Sunday = 0, Monday = 1, Tuesday = 2, Wednesday = 3, Thursday = 4, Friday = 5, Saturday = 6\n\t * The function below would enable every sunday and saturday.\n\t */ \t\n\t// return (date.getDay() === 0 || date.getDay() === 6)\n}",
+            "datepicker_openPickerButtonText": "",
+            "datepicker_cancelButtonText": "",
+            "datepicker_submitButtonText": "",
+            "datepicker_defaultHour": 12,
+            "datepicker_defaultMinute": 30,
+            "datepicker_enableSeconds": false,
+            "datepicker_hourIncrement": 1,
+            "datepicker_minuteIncrement": 5,
+            "datepicker_noCalendar": false,
+            "datepicker_weekNumbers": false,
+            "datepicker_hidePicker": false,
+            "generativeAI_rephraseOutputMode": "none",
+            "generativeAI_amountOfLastUserInputs": 5,
+            "generativeAI_customInputs": "",
+            "generativeAI_temperature": 0.7,
+            "cleanTextDescription": "",
+            "textToClean": "{{input.text}}",
+            "cleanTextLocale": "infer",
+            "cleanDisallowedSymbols": false,
+            "additionalAllowedCharacters": [],
+            "additionalMappedSymbols": "",
+            "resolveSpelledOutNumbers": false,
+            "resolvePhoneticAlphabet": false,
+            "additionalPhoneticAlphabet": "",
+            "replaceSpecialWords": false,
+            "additionalSpecialPhrases": "",
+            "resolveSpelledOutAlphabet": false,
+            "resolvePhoneticCounters": false,
+            "contractSingleCharacters": false,
+            "contractNumberGroups": false,
+            "trimResult": false,
+            "storeLocation": "input",
+            "inputKey": "cleanedText",
+            "contextKeyToStoreResult": "cleanedText",
+            "runNLUAfterCleaning": false,
+            "overwrittenBaseAnswer": "",
+            "escalateAnswersExecuteRepromptPrevention": "",
+            "escalateIntentsExecuteRepromptPrevention": "",
+            "escalateAnswersHandoverUnavailable": "",
+            "escalateAnswersHandoverUnsupportedChannel": "",
+            "escalateIntentsHandoverUnavailable": "",
+            "escalateIntentsHandoverUnsupportedChannel": "",
+            "escaleAnswersHandoverEightByEightChannelId": "",
+            "handoverOutput": "userAndAgent"
+          },
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "analyticsLabel": "Question",
+          "id": "68d1105bae744c215e41f46a"
+        },
+        {
+          "type": "say",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Say",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {
+            "say": {
+              "data": "",
+              "linear": false,
+              "loop": false,
+              "text": [],
+              "type": "text",
+              "_cognigy": {}
+            },
+            "handoverOutput": "userAndAgent",
+            "preventTranscript": false,
+            "generativeAI_rephraseOutputMode": "none",
+            "generativeAI_amountOfLastUserInputs": 5,
+            "generativeAI_customInputs": "",
+            "generativeAI_temperature": 0.7
+          },
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d1105aae744c215e41f445"
+        },
+        {
+          "type": "case",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Case",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {
+            "case": {
+              "value": ""
+            }
+          },
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d1105977d2fdbebb25e8a2"
+        },
+        {
+          "type": "say",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Say (5)",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {
+            "say": {
+              "data": "",
+              "linear": false,
+              "loop": false,
+              "text": [],
+              "type": "text",
+              "_cognigy": {}
+            },
+            "handoverOutput": "userAndAgent",
+            "preventTranscript": false,
+            "generativeAI_rephraseOutputMode": "none",
+            "generativeAI_amountOfLastUserInputs": 5,
+            "generativeAI_customInputs": "",
+            "generativeAI_temperature": 0.7
+          },
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d1105977d2fdbebb25e88f"
+        },
+        {
+          "type": "case",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Create app",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {
+            "case": {
+              "value": "Create app"
+            }
+          },
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d11057ae744c215e41f403"
+        },
+        {
+          "type": "say",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Say (4)",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {
+            "say": {
+              "data": "",
+              "linear": false,
+              "loop": false,
+              "text": [
+                "Test"
+              ],
+              "type": "text",
+              "_cognigy": {},
+              "_data": {
+                "_cognigy": {}
+              }
+            },
+            "handoverOutput": "userAndAgent",
+            "preventTranscript": false,
+            "generativeAI_rephraseOutputMode": "none",
+            "generativeAI_amountOfLastUserInputs": 5,
+            "generativeAI_customInputs": "",
+            "generativeAI_temperature": 0.7
+          },
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d1105793ce830f5d0c895d"
+        },
+        {
+          "type": "default",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Default",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {},
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d11056ae744c215e41f3ba"
+        },
+        {
+          "type": "switch",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Lookup",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {
+            "switch": {
+              "type": "intent",
+              "operator": "ci.intent"
+            },
+            "intentLevel": "input.intent",
+            "useStrict": ""
+          },
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d11056ae744c215e41f3b0"
+        },
+        {
+          "type": "say",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Say (2)",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {
+            "say": {
+              "data": "",
+              "linear": false,
+              "loop": false,
+              "text": [
+                "Welcome back!"
+              ],
+              "type": "text",
+              "_cognigy": {},
+              "_data": {
+                "_cognigy": {}
+              }
+            },
+            "handoverOutput": "userAndAgent",
+            "preventTranscript": false,
+            "generativeAI_rephraseOutputMode": "none",
+            "generativeAI_amountOfLastUserInputs": 5,
+            "generativeAI_customInputs": "",
+            "generativeAI_temperature": 0.7
+          },
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d1105577d2fdbebb25e831"
+        },
+        {
+          "type": "say",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Say (3)",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {
+            "say": {
+              "data": "",
+              "linear": false,
+              "loop": false,
+              "text": [],
+              "type": "text",
+              "_cognigy": {}
+            },
+            "handoverOutput": "userAndAgent",
+            "preventTranscript": false,
+            "generativeAI_rephraseOutputMode": "none",
+            "generativeAI_amountOfLastUserInputs": 5,
+            "generativeAI_customInputs": "",
+            "generativeAI_temperature": 0.7
+          },
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d1105477d2fdbebb25e81d"
+        },
+        {
+          "type": "afterwards",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Afterwards",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {},
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d11053ae744c215e41f361"
+        },
+        {
+          "type": "onFirstExecution",
+          "extension": "@cognigy/basic-nodes",
+          "label": "On First Time",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {},
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d11053ae744c215e41f354"
+        },
+        {
+          "type": "once",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Once",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {},
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68d11053ae744c215e41f34a"
+        },
+        {
+          "type": "end",
+          "extension": "@cognigy/basic-nodes",
+          "label": "End",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": false,
+          "isDisabled": false,
+          "config": {},
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68ca60975bad1b9653988da4"
+        },
+        {
+          "type": "start",
+          "extension": "@cognigy/basic-nodes",
+          "label": "Start",
+          "comment": "",
+          "commentColor": "",
+          "isEntryPoint": true,
+          "isDisabled": false,
+          "config": {},
+          "localeReference": "68b98a94f2f5405cda765bf3",
+          "id": "68ca60975bad1b9653988d99"
+        }
+      ],
+      "relations": [
+        {
+          "id": "68ca60975bad1b9653988d9a",
+          "node": "68ca60975bad1b9653988d99",
+          "children": [],
+          "next": "68d11053ae744c215e41f34a"
+        },
+        {
+          "id": "68ca60975bad1b9653988da7",
+          "node": "68ca60975bad1b9653988da4",
+          "children": []
+        },
+        {
+          "id": "68d11053ae744c215e41f34d",
+          "node": "68d11053ae744c215e41f34a",
+          "children": [
+            "68d11053ae744c215e41f354",
+            "68d11053ae744c215e41f361"
+          ],
+          "next": "68d1105aae744c215e41f445"
+        },
+        {
+          "id": "68d11053ae744c215e41f357",
+          "node": "68d11053ae744c215e41f354",
+          "children": [],
+          "next": "68d1105477d2fdbebb25e81d"
+        },
+        {
+          "id": "68d11053ae744c215e41f364",
+          "node": "68d11053ae744c215e41f361",
+          "children": [],
+          "next": "68d11056ae744c215e41f3b0"
+        },
+        {
+          "id": "68d1105477d2fdbebb25e820",
+          "node": "68d1105477d2fdbebb25e81d",
+          "children": [],
+          "next": "68d1105577d2fdbebb25e831"
+        },
+        {
+          "id": "68d1105577d2fdbebb25e834",
+          "node": "68d1105577d2fdbebb25e831",
+          "children": []
+        },
+        {
+          "id": "68d11056ae744c215e41f3b3",
+          "node": "68d11056ae744c215e41f3b0",
+          "children": [
+            "68d11056ae744c215e41f3ba",
+            "68d11057ae744c215e41f403",
+            "68d1105977d2fdbebb25e8a2"
+          ]
+        },
+        {
+          "id": "68d11056ae744c215e41f3bd",
+          "node": "68d11056ae744c215e41f3ba",
+          "children": [],
+          "next": "68d1105793ce830f5d0c895d"
+        },
+        {
+          "id": "68d1105793ce830f5d0c8960",
+          "node": "68d1105793ce830f5d0c895d",
+          "children": []
+        },
+        {
+          "id": "68d11057ae744c215e41f406",
+          "node": "68d11057ae744c215e41f403",
+          "children": [],
+          "next": "68d1105977d2fdbebb25e88f"
+        },
+        {
+          "id": "68d1105977d2fdbebb25e892",
+          "node": "68d1105977d2fdbebb25e88f",
+          "children": []
+        },
+        {
+          "id": "68d1105977d2fdbebb25e8a5",
+          "node": "68d1105977d2fdbebb25e8a2",
+          "children": []
+        },
+        {
+          "id": "68d1105aae744c215e41f448",
+          "node": "68d1105aae744c215e41f445",
+          "children": [],
+          "next": "68d1105bae744c215e41f46a"
+        },
+        {
+          "id": "68d1105bae744c215e41f46d",
+          "node": "68d1105bae744c215e41f46a",
+          "children": [],
+          "next": "68ca60975bad1b9653988da4"
+        }
+      ],
+      "intents": [
+        {
+          "name": "test",
+          "exampleSentences": [
+            "test2",
+            "test"
+          ],
+          "rules": [],
+          "tags": [],
+          "condition": "",
+          "disambiguationSentence": "",
+          "childFeatures": false,
+          "biasTowardsParentOrChildIntents": "parents",
+          "parent": "",
+          "defaultReply": {},
+          "entryPoint": "",
+          "isRejectIntent": false,
+          "isDisabled": false,
+          "overrideIntentDefaultRepliesAsExamples": ""
+        },
+        {
+          "name": "Create app",
+          "exampleSentences": [
+            "new app",
+            "create new app"
+          ],
+          "rules": [],
+          "tags": [],
+          "condition": "",
+          "disambiguationSentence": "",
+          "childFeatures": false,
+          "biasTowardsParentOrChildIntents": "parents",
+          "parent": "",
+          "defaultReply": {},
+          "entryPoint": "",
+          "isRejectIntent": false,
+          "isDisabled": false,
+          "overrideIntentDefaultRepliesAsExamples": ""
+        }
+      ]
+    }
+  }
+}
